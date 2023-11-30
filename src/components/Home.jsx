@@ -45,7 +45,7 @@ const Home = () => {
             </header>
 
             <section className="mt-24 ">
-                <h1 className="text-xl sm:text-3xl font-poppins font-semibold text-center">Some Of Our Services</h1>
+                <h1 id="about" className="text-xl sm:text-3xl font-poppins font-semibold text-center">Some Of Our Services</h1>
                 <div className="absolute top-[220%] -z-30 bg-pink-400 w-40 h-96 rounded-full blur-3xl opacity-50"></div>
                 <div className="sm:mx-20 md:mx-36 lg:mx-52 mt-9 flex justify-evenly flex-wrap ">
                     {services.map((service, index) => (
