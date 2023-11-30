@@ -69,8 +69,7 @@ const Home = () => {
                 <div className="flex-1 flex flex-col text-white">
                     <h1 className="text-2xl sm:text-5xl font-semibold">Let’s Try our Services Now!</h1>
                     <p className='text-lg sm:text-xl mt-10 w-full sm:w-9/12'>
-                        Everything you need to accept card payments and grow your business
-                        anywhere on the planet.
+                       Step into a world where your wedding dreams come alive! Discover our enchanting wedding rooms at their finest, designed to turn your special day into an unforgettable fairy tale.
                     </p>
                 </div>
                 <div className='sm:ml-10 ml-0 sm:mt-0 mt-10'>
