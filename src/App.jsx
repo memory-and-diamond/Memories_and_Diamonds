@@ -1,6 +1,6 @@
 import styles from "./style";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Navbar, Home, Services, Footer } from "./components";
+import { Navbar, Home, Services, About, Footer } from "./components";
 
 const App = () => (
   <BrowserRouter>
@@ -8,6 +8,7 @@ const App = () => (
     <Routes>
       <Route index element={<Home />} />
       <Route path="/services" element={<Services />} />
+      <Route path="/about" element={<About />} />
     </Routes>
     <Footer />
   </BrowserRouter>
