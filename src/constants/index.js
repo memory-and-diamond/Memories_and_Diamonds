@@ -25,7 +25,7 @@ export const services = [
     {
         color: 'bg-[#A0CCF5]',
         title: 'Photographers',
-        img: '/public/Images/photographer.jpg',
+        img: '/Images/photographer.jpg',
         margin: 'mt-10'
     },
     {
@@ -37,7 +37,7 @@ export const services = [
     {
         color: 'bg-fuchsia-500',
         title: 'Cakes',
-        img: '/public/Images/cake.jpg',
+        img: 'Images/cake.jpg',
         margin: 'mt-6'
     },
     {
