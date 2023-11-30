@@ -31,7 +31,7 @@ export const services = [
     {
         color: 'bg-yellow-400 ',
         title: 'Halls',
-        img: '/public/Images/hall.jpg',
+        img: 'public/Images/hall.jpg',
         margin: 'mt-0'
     },
     {
