@@ -47,11 +47,11 @@ export default class Memories extends Component {
         };
 
         const images = [
-            '/public/Images/m1.jpg',
-            '/public/Images/m2.jpg',
-            '/public/Images/m3.jpg',
-            '/public/Images/m4.jpg',
-            '/public/Images/m5.jpg'
+            '/Images/m1.jpg',
+            '/Images/m2.jpg',
+            '/Images/m3.jpg',
+            '/Images/m4.jpg',
+            '/Images/m5.jpg'
         ]
 
         return (

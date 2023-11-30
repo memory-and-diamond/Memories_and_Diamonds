@@ -31,7 +31,7 @@ const Home = () => {
         <article>
             <header className="h-screen">
                 <video autoPlay muted loop style={videoStyling} >
-                    <source src="/public/Images/bgVideo.mp4" type="video/mp4" />
+                    <source src="https://player.vimeo.com/progressive_redirect/playback/702530616/rendition/360p?loc=external&oauth2_token_id=57447761&signature=f8101b91ab8d1cb3bfb20ccceb806d3f40f5b3a49903f500ce69e3b3a8b60d3f" type="video/mp4" />
                 </video>
                 <div style={divStyling} className="text-center w-11/12 sm:w-6/12">
                     <h1 style={{ fontFamily: 'Dancing Script, cursive'}} className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl mb-8 drop-shadow-xl">
@@ -69,8 +69,7 @@ const Home = () => {
                 <div className="flex-1 flex flex-col text-white">
                     <h1 className="text-2xl sm:text-5xl font-semibold">Let’s Try our Services Now!</h1>
                     <p className='text-lg sm:text-xl mt-10 w-full sm:w-9/12'>
-                        Everything you need to accept card payments and grow your business
-                        anywhere on the planet.
+                       Step into a world where your wedding dreams come alive! Discover our enchanting wedding rooms at their finest, designed to turn your special day into an unforgettable fairy tale.
                     </p>
                 </div>
                 <div className='sm:ml-10 ml-0 sm:mt-0 mt-10'>
