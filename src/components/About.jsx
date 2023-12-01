@@ -34,7 +34,7 @@ const AboutUs = () => {
                         </div>
                         <div className="flex items-center gap-2 mb-5">
                             <img width="25" height="25" src="https://img.icons8.com/windows/32/instagram-new.png" alt="instagram-new" />
-                            <p>Memory And Diamond"</p>
+                            <p>Memory And Diamond</p>
                         </div>
                     </div>
                 </div>
