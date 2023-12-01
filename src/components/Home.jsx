@@ -1,4 +1,3 @@
-import Navbar from "./Navbar";
 import { services } from "../constants";
 import Memories from "./Memories";
 import Strengths from "./Strengths";
@@ -34,10 +33,10 @@ const Home = () => {
                     <source src="https://player.vimeo.com/progressive_redirect/playback/702530616/rendition/360p?loc=external&oauth2_token_id=57447761&signature=f8101b91ab8d1cb3bfb20ccceb806d3f40f5b3a49903f500ce69e3b3a8b60d3f" type="video/mp4" />
                 </video>
                 <div style={divStyling} className="text-center w-11/12 sm:w-6/12">
-                    <h1 style={{ fontFamily: 'Dancing Script, cursive'}} className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl mb-8 drop-shadow-xl">
+                    <h1 style={{ fontFamily: 'Dancing Script, cursive' }} className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl mb-8 drop-shadow-xl">
                         Memory & diamond
                     </h1>
-                    <p className="text-lg font-poppins text-sm sm:text-xl">
+                    <p className="font-poppins text-sm sm:text-xl">
                         Embrace Elegance, Where Modernity Meets <b><i>Artificial Intelligence</i></b> in Your Celebration
                     </p>
                 </div>
@@ -45,9 +44,9 @@ const Home = () => {
             </header>
 
             <section className="mt-24 ">
-                <h1 id="about" className="text-xl sm:text-3xl font-poppins font-semibold text-center">Some Of Our Services</h1>
+                <h1 className="text-xl sm:text-3xl font-poppins font-semibold text-center">Some Of Our Services</h1>
                 <div className="absolute top-[220%] -z-30 bg-pink-400 w-40 h-96 rounded-full blur-3xl opacity-50"></div>
-                <div className="sm:mx-20 md:mx-36 lg:mx-52 mt-9 flex justify-evenly flex-wrap ">
+                <div className="sm:mx-20 md:mx-36 lg:mx-52 xl:mx-64 mt-9 flex justify-evenly flex-wrap ">
                     {services.map((service, index) => (
                         <div className={`w-60 mx-2 max-sm:mt-6 h-80 rounded-3xl ${service.margin} ${service.color} text-center `} key={index}>
                             <img src={service.img} className="w-12/12 rounded-3xl" />
@@ -69,7 +68,7 @@ const Home = () => {
                 <div className="flex-1 flex flex-col text-white">
                     <h1 className="text-2xl sm:text-5xl font-semibold">Let’s Try our Services Now!</h1>
                     <p className='text-lg sm:text-xl mt-10 w-full sm:w-9/12'>
-                       Step into a world where your wedding dreams come alive! Discover our enchanting wedding rooms at their finest, designed to turn your special day into an unforgettable fairy tale.
+                        Step into a world where your wedding dreams come alive! Discover our enchanting wedding rooms at their finest, designed to turn your special day into an unforgettable fairy tale.
                     </p>
                 </div>
                 <div className='sm:ml-10 ml-0 sm:mt-0 mt-10'>
