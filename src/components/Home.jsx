@@ -48,12 +48,10 @@ const Home = () => {
                 <div className="absolute top-[220%] -z-30 bg-pink-400 w-40 h-96 rounded-full blur-3xl opacity-50"></div>
                 <div className="sm:mx-20 md:mx-36 lg:mx-52 mt-9 flex justify-evenly flex-wrap ">
                     {services.map((service, index) => (
-                        <div className="w-1/3 mx-auto flex justify-center">
-                            <div className={`w-60 mx-2 max-sm:mt-6 h-80 rounded-3xl ${service.margin} ${service.color} text-center `} key={index}>
-                                <img src={service.img} className="w-12/12 rounded-3xl" />
-                                <h3 className="text-lg font-semibold my-5">{service.title}</h3>
-                                <button className="border-2 border-black rounded-full px-6 py-2 hover:bg-black hover:text-white duration-300 ">View Details</button>
-                            </div>
+                        <div className={`w-60 mx-2 max-sm:mt-6 h-80 rounded-3xl ${service.margin} ${service.color} text-center `} key={index}>
+                            <img src={service.img} className="w-12/12 rounded-3xl" />
+                            <h3 className="text-lg font-semibold my-5">{service.title}</h3>
+                            <button className="border-2 border-black rounded-full px-6 py-2 hover:bg-black hover:text-white duration-300 ">View Details</button>
                         </div>
                     ))}
                 </div>
